@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import Nav from "./components/Nav";
 import type { techDataType } from "./type/type";
 
@@ -17,6 +18,7 @@ function App() {
   return (
     <>
       <Nav />
+      <Footer />
     </>
   )
 }
