@@ -2,5 +2,33 @@
 @plugin "daisyui";
 
 * {
-    font-family: sans-serif ;
+    font-family: sans-serif;
+}
+
+.btn-selected {
+    border: 2px solid slategray;
+    color: slategray;
+    background-color: #fff;
+    transition: all ease-in 0.3s;
+    cursor: not-allowed;
+}
+
+.gradient-text {
+
+    background: rgba(255, 157, 0, 1);
+    background: linear-gradient(90deg, rgba(255, 157, 0, 1)0%, rgba(225, 0, 255, 1) 53%, rgba(0, 81, 255, 1) 100%);
+
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+
+}
+
+.gradient-btn {
+
+    background: #ff9d00;
+    background: linear-gradient(90deg, rgba(255, 157, 0, 1) 0%, rgba(225, 0, 255, 1) 100%);
+
 }

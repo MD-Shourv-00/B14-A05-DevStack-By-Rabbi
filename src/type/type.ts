@@ -1,3 +1,4 @@
+
 export interface techDataType {
     id: number,
     name: string,
