@@ -2,7 +2,7 @@ import logoTxt from '../assets/logo-text.png'
 
 const Footer = () => {
     return (
-        <footer className="border-t border-gray-100 bg-white">
+        <footer className="border-t border-gray-100  bg-[#f8f8f8]">
             <div className="mx-auto container py-12">
                 <div className="flex justify-between gap-10">
                     <div>
