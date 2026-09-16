@@ -25,21 +25,21 @@ const Nav = () => {
             <a
               className="hover:text-pink-500 transition active:text-pink-300"
               href="#projects">
-              Projects{" "}
+              Projects
             </a>
           </li>
           <li>
             <a
               className="hover:text-pink-500 transition active:text-pink-300"
               href="#about">
-              About{" "}
+              About
             </a>
           </li>
           <li>
             <a
               className="hover:text-pink-500 transition active:text-pink-300"
               href="#contact">
-              Contact{" "}
+              Contact
             </a>
           </li>
         </ul>
